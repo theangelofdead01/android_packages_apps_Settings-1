@@ -1,0 +1,2 @@
+# riceDroidSettings
+-keep class com.rice.settings.**
