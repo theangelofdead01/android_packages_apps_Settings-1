@@ -181,7 +181,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.rice.settings.riceDroidSettingsLayout;
-
+import com.rice.settings.fragments.ui.SmartPixels;
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
 public class SettingsGateway {
@@ -353,7 +353,8 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             riceDroidSettingsLayout.class.getName(),
             WifiTetherClientManager.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -397,6 +398,7 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.riceDroidSettingsLayoutActivity.class.getName(),
-            Settings.DevRunningServicesActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
