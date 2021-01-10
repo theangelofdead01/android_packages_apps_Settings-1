@@ -151,5 +151,10 @@
     <string name="private_dns_mode_open_dns">Open DNS</string>
     <string name="private_dns_mode_cleanbrowsing">Cleanbrowsing DNS</string>
     <string name="private_dns_mode_quad9">Quad9 DNS</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 </resources>
 
