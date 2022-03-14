@@ -181,6 +181,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.rice.settings.riceDroidSettingsLayout;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -348,7 +350,8 @@ public class SettingsGateway {
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
-            riceDroidSettingsLayout.class.getName()
+            riceDroidSettingsLayout.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
