@@ -93,6 +93,7 @@ android_library {
         "vendor.lineage.fastcharge-V1.0-java",
         "SystemUISharedLib",
         "glide",
+        "SystemUISharedLib",
     ],
 
     libs: [
