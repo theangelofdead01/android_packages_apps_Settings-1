@@ -90,5 +90,9 @@
     <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! please tell the builder that he/she forgot to add RICE build flags!</string>
 
+    <!-- Volume Media Output Toggle -->
+    <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
+    <string name="volume_media_output_toggle_summary">Show media controller if there is an active stream</string>
+
 </resources>
 
